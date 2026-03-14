@@ -108,15 +108,15 @@ Slicers:
   - Months
   - Regions
 
-*View Sales Overview Dashboard Below*
+**_View Sales Overview Dashboard Below_**
 
 ![](Sales_overview.png)
 
-*View Products Overview Dashboard Below*
+**_View Products Overview Dashboard Below_**
 
 ![](Products_overview.png)
 
-*View Customers Overview Dashboard Below*
+**_View Customers Overview Dashboard Below_**
 
 ![](Customers_overview.png)
 
@@ -148,5 +148,5 @@ This dashboard equips Trendy Picks with data-driven intelligence needed to stren
 Future improvement may include dataset from different years to analyze and compare sales trend over the years.
 
 ## Author
-Nwali Adaobi
-(Data Analyst)
+**Nwali Adaobi**
+**(Data Analyst)**
