@@ -1,3 +1,4 @@
+# Is the business performing well? 
 # TRENDY-PICKS-SALES-PERFORMANCE-ANALYSIS
 
 ![](Trendy_Picks.png)
