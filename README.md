@@ -1,5 +1,4 @@
-# Is the business performing well? 
-# TRENDY-PICKS-SALES-PERFORMANCE-ANALYSIS
+# Is the business performing well? - TRENDY-PICKS-SALES-PERFORMANCE-ANALYSIS
 
 ![](Trendy_Picks.png)
 
@@ -55,59 +54,16 @@ Trendy Picks is expanding in the global market and need to get hold of their bus
 
 ## Analytics & Calculated Columns
 The Key Calculated Columns were created to monitor trends;
-  1. Total Sales Before Discount =[@[Quantity Ordered]]*[@[Unit Price]]
-  2. Discount Amount =[@Discount]*[@[Total Price Before Discount]]
-  3. Total Sales After Discount =[@[Total Price Before Discount]]-[@[Discount Amount]]
-  4. Order Month =TEXT([@[Order Date]],"mmm")
-  5. Order Week Category =IF(WEEKDAY(S53,2)>5,"Weekend","Weekday")
-  6. Delivery Days  =[@[Ship Date]]-[@[Order Date]]
+  1. Total Sales Before Discount = Initial amount before the discount was added
+  2. Discount Amount = Amount reduced/discounted from the initial amount
+  3. Total Sales After Discount = Amount genertaed after discount was added
+  4. Order Month = Month at which the order was placed
+  5. Order Week Category = Categorized the days of the week into weekday/weekend
+  6. Delivery Days = Days before the customer received the ordered product
 
 ## Dashboards & Visuals
 The dashboards were segmented into 3; Overview, Customers and Products for clear insights and understanding.
 The dashboard includes:
-
-KPI Cards:
-
-*Overview*: 
-  - Total Revenue
-  - Total Orders
-  - Average Delivery Days
-    
-*Customers*:
-  - Total Customers
-  - Average Revenue Per Customer
-  - Customers’ Churn Rate
-    
-*Products*:
-  - Product Variety Sold
-  - Top Product By Quantity
-  - Top Product By Revenue
-    
-Line Charts:
-  - Revenue By Month
-  - Order Trend Across Months
-  - Customers Per Month
-    
-Column Charts:
-  - Revenue By Week Category
-  - Revenue By Product Category
-  - Top 5 Well-performing Products
-  - Least Performing Products
-  - Customers Per Region
-  - Customers Distribution – Top 5 States
-    
-Bar Charts:
-  - Revenue By Region
-  - Top 5 Best Selling Products
-  - Top 5 Customers
-    
-Pie Charts:
-  - Delivery Mode
-  - Customers By Segment
-    
-Slicers:
-  - Months
-  - Regions
 
 **_View Sales Overview Dashboard Below_**
 
